@@ -31,10 +31,10 @@ If you are working with several versions of NodeJS, we recommend you install [nv
 
 ### 2.2 Starting the project
 
-- The `docker image build --no-cache -t micro-api .` command will allow you to build your image.
-- The `docker container run --name micro-api -p 3000:3000 -dt micro-api yarn` command will allow you to create your Docker container and run your image on port 3000.
-- The `docker container stop micro-api` command will allow you to stop your micro-api.
-- The `docker container rm micro-api` command will allow you to delete your micro-api container.
+- The `docker image build --no-cache -t micro-apiOld .` command will allow you to build your image.
+- The `docker container run --name micro-apiOld -p 3000:3000 -dt micro-apiOld yarn` command will allow you to create your Docker container and run your image on port 3000.
+- The `docker container stop micro-apiOld` command will allow you to stop your micro-apiOld.
+- The `docker container rm micro-apiOld` command will allow you to delete your micro-apiOld container.
 
 ### 2.3 Vscode and container remotes
 
